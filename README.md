@@ -33,7 +33,7 @@ This project implements a reproducible A/B testing workflow that evaluates the e
 4. **Analytical power/sample-size reasoning**
 
    * Calculated between-store variance of the per-store daily-AOV metric and derived the classic required number of stores formula:
-   $$n = \frac{2\,(Z_{1-\alpha/2} + Z_{1-\beta})^2\,\sigma^2}{\Delta^2}$$
+   $$n = \frac{2(Z_{1-\alpha/2} + Z_{1-\beta})^2\sigma^2}{\Delta^2}$$
    * Also derived required days given intra-store transaction variance, arriving at a large analytic minimal duration.
 
 5. **Empirical hierarchical bootstrap**
